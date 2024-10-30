@@ -1,0 +1,118 @@
+/* Simplified UI */
+.humm-admin {
+    background: #f4f4f4;
+    font-family: "Roboto", sans-serif;
+}
+
+.humm-admin .form-table th {
+    background-color: #e5e5e5;
+    color: #333;
+}
+
+.humm-admin .form-table td {
+    color: #333;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-shadow: 0.2px 0.2px 0.2px rgba(0, 0, 0, 0.5);
+}
+.humm-status {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    text-align: left;
+    font-size: 12px;
+    background: #e5e5e5;
+    line-height: 1.2em;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, .08);
+    margin: 0.5em 0.5em;
+    cursor: inherit !important;
+    max-width: 100%;
+    color: #777;
+    padding: 2px;
+}
+
+.payment-status {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    line-height: 2.5em;
+    color: #777;
+    background: #e5e5e5;
+    border-radius: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    margin: -.25em 0;
+    cursor: inherit !important;
+    max-width: 100%;
+    padding:2px;
+}
+@media screen and (max-width: 768px) {
+    .card {
+        max-width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+        position: absolute;
+        width: 100%;
+        min-height: 0;
+        overflow: scroll;
+        bottom: 0;
+        top: 55px;
+    }
+}
+
+.humm-general{
+    font-size:1.2rem !important;
+}
+#humm-container .form-table{
+    border: 1px solid #e5e5e5;
+    /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);*/
+}
+#humm-container .form-table th {
+    padding-left: 8px;
+    font-weight: 300;
+}
+
+#humm-container {
+    font-weight: normal !important;
+}
+
+.humm-checkout {
+    font-size: 1.1em;
+    padding-top: 0.3em;
+     padding-bottom: 0.3em;
+    background-color: #ff6900;
+    color: #FFF;
+
+}
+.humm-margin-below {
+    margin-bottom: 10px;
+}
+.humm-payment-logo
+ {
+    /* float:left; */
+    display:inline-block;
+    vertical-align: middle;
+    margin: 1px 20px 10px 5px;
+    width: 152px;
+    height:128px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-image: url(../images/humm-logo.svg);
+}
+.humm-header {
+    display: table;
+}
+.humm-payment-byline
+  {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    text-shadow: 0.2px 0.2px 0.2px rgba(0, 0, 0, 0.5);
+    display: table-cell;
+    vertical-align: middle;
+}
+.humm-payment-section.section-config.active > .admin__collapsible-block + input + fieldset { margin-left: 40px; }

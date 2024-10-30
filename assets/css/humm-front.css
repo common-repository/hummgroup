@@ -1,0 +1,23 @@
+.humm-checkout {
+    float:left;
+    text-align: left;
+    font-size: 1.0em;
+    /*background-color: #ff6900;*/
+    max-width: 70%;
+
+}
+
+.humm-image {
+    float:right;
+    max-width:30%;
+}
+
+.humm-express {
+    font-size: 1.2em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    background-color: #FF6C00;
+    color: #FFF;
+}
+
+.humm-sandbox-enabled{ font-size: .8em; color: #bb4e4e;}
